@@ -7,7 +7,7 @@ setuptools.setup(
     author='elcr',
     author_email='elcr@outlook.com',
     url='https://bitbucket.org/elcr/muhblog',
-    py_modules=['muhblog'],
+    packages=['muhblog'],
     include_package_data=True,
     entry_points={'console_scripts': ['muhblog=muhblog:main']},
     platforms='any',
